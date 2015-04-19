@@ -1908,10 +1908,10 @@ var commands = exports.commands = {
 	roomrequests: function (target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
-			"<center><font size='4'><b><u>Wan't your own chatroom?</b></u></font><br />" +
+			"<center><font size='4'><b><u>Wan't your own chatroom?</b></u></font><br /><BR />" +
 			"<font size='2'><b>Fill the form and pm to an admin.</b></font></center><br /><br />" +
-			"<B>Room Name:</B>" +
-			"<B>Room Owners:</B> ( Max 3 )" +
+			"<B>Room Name:</B><BR />" +
+			"<B>Room Owners:</B> ( Max 3 )<BR />" +
 			"<B>Why You Wan't The Room:</B><br />"
 		);
 	},
