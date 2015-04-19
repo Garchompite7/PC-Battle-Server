@@ -4,8 +4,8 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'cbc.pokecommunity.com';
-exports.port = 8000;
+exports.server = 'http://pokemoonfiles.herokuapp.com-80.psim.us';
+exports.port = 80;
 
 // This is the server id.
 // To know this one, you should check where the AJAX call 'goes' to when you
@@ -13,12 +13,12 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = 'pokecommunity';
+exports.serverid = 'pokemoonfiles';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'PokeCommBot';
-exports.pass = 'filler';
+exports.nick = 'PokeMoonBot';
+exports.pass = 'musaddiq';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
@@ -62,7 +62,7 @@ exports.debuglevel = 3;
 exports.excepts = [];
 
 // Whitelisted users are those who the bot will not enforce moderation for.
-exports.whitelist = ['PokeCommBot'];
+exports.whitelist = ['PokeMoonBot'];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
