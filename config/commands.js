@@ -1908,7 +1908,11 @@ var commands = exports.commands = {
 	roomrequests: function (target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
-			"- <a href=\"http://www.pokecommunity.com/showthread.php?t=342086\">Room Requests & Guidelines</a>"
+			"<center><font size='4'><b><u>Wan't your own chatroom?</b></u></font><br />" +
+			"<font size='2'><b>Fill the form and pm to an admin.</b></font></center><br /><br />" +
+			"<B>Room Name:</B>" +
+			"<B>Room Owners:</B> ( Max 3 )" +
+			"<B>Why You Wan't The Room:</B><br />"
 		);
 	},
 
